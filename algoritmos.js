@@ -94,3 +94,15 @@ const selectionSort = arr3 => {
   const result3 = selectionSort(arr);
   
   result; // [1, 4, 19, 12, 31, 32, 40, 43, 65, 67]
+
+  //bonus:ARREGLO DE CADENAS
+  
+  const equipos = ['Real Madrid', 'Manchester Utd', 'Bayern Munich', 'Juventus'];
+
+  equipos.sort(); // en orden alfabetico de A a Z
+
+// ['Bayern Munich', 'Juventus', 'Manchester Utd', 'Real Madrid']
+
+equipos.reverse(); // en orden alfabetico de Z a A
+
+// ['Real Madrid', 'Manchester Utd', 'Juventus', 'Bayern Munich']
